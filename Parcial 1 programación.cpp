@@ -3,13 +3,13 @@
 using namespace std;
 
 /*
-Secci髇 A
+Secci贸n A
 
 1) B) int x = 10;
     // Declaro una variable entera y le asigno el valor 10 directamente.
 
 2) B) 3 3.5
-    // 7/2 es divisi髇 entera que da 3, 7/2.0 es divisi髇 con decimal que da 3.5.
+    // 7/2 es divisi贸n entera que da 3, 7/2.0 es divisi贸n con decimal que da 3.5.
 
 3) B) 0 1 1
     // a&&b es falso (0), a||b es verdadero (1), !b es verdadero (1).
@@ -24,9 +24,9 @@ Secci髇 A
     // Multiplica primero b*3=6 y suma a=5, total 11.
 
 8) B) void f(int& n);
-    // El par醡etro con & pasa la variable por referencia.
+    // El par谩metro con & pasa la variable por referencia.
 
-9) B) continue salta a la siguiente iteraci髇 del ciclo.
+9) B) continue salta a la siguiente iteraci贸n del ciclo.
 
 10) A) (3 == 3) && !(2 > 5)
     // 3==3 es verdadero y 2>5 es falso, negado es verdadero, todo es true.
@@ -72,16 +72,16 @@ void tablaMultiplicar(int n) {
 }
 
 int main() {
-    // Secci髇 B
+    // Secci贸n B
     // 1)
     int a1 = 5, b1 = 2;
-    cout << a1 + b1 * 3 << endl;
+    cout << a1 + b1 * 3 << endl;// Resultado: 11
 
     // 2)
     int n2 = 0;
     while (n2 < 3) {
         cout << n2 << " ";
-        n2++;
+        n2++;  // Resultado: 0 1 2
     }
     cout << endl;
 
@@ -90,26 +90,26 @@ int main() {
     if (x3 % 2 == 0)
         cout << "par" << endl;
     else
-        cout << "impar" << endl;
+        cout << "impar" << endl;   // Resultado: par
 
     // 4)
     int i4 = 3;
     do {
         cout << i4--;
     } while (i4 > 0);
-    cout << endl;
+    cout << endl;    // Resultado: 321
 
     // 5)
     int a5 = 1;
     int b5 = (a5++ > 1) ? 100 : 200;
-    cout << a5 << " " << b5 << endl;
+    cout << a5 << " " << b5 << endl;       // Resultado: 2 200
 
 
 
 
 
 
-    // Pruebas Secci髇 C
+    // Pruebas Secci贸n C
     cout << "--- Pruebas de la Seccion C ---" << endl;
     cout << "max3(5, 9, 3) = " << max3(5, 9, 3) << endl;
     cout << "max3(10, 2, 7) = " << max3(10, 2, 7) << endl;
@@ -147,3 +147,4 @@ int main() {
 
     return 0;
 }
+
